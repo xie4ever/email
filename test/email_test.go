@@ -1,18 +1,3 @@
-# email
-email-sdk
-
-## 1.all you need
-
-need param:
-* host
-* port
-* address
-* username
-* password
-
-## 2.example
-
-```golang
 package test
 
 import (
@@ -51,4 +36,3 @@ func TestSend(t *testing.T) {
 		t.Fatal(err)
 	}
 }
-```
